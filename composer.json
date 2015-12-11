@@ -1,0 +1,16 @@
+{
+    "name": "wzulfikar/file-generator",
+    "description": "Generate file from template.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "M Wildan Zulfikar",
+            "email": "wzulfikar@ymail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wzulfikar\\FileGenerator\\": "src/"
+        }
+    }
+}
