@@ -1,5 +1,5 @@
 # File Generator
-Generate file from template, based on laravel blade template [http://laravel.com/docs/5.1/blade]().
+Generate file from template, using laravel blade as template engine. See: [http://laravel.com/docs/5.1/blade]().
 
 ## Getting Started
 
