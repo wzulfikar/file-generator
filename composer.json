@@ -1,6 +1,6 @@
 {
     "name": "wzulfikar/file-generator",
-    "description": "Generate file from template.",
+    "description": "Generate file from template using blade template engine.",
     "license": "MIT",
     "authors": [
         {
@@ -12,5 +12,8 @@
         "psr-4": {
             "Wzulfikar\\FileGenerator\\": "src/"
         }
+    },
+    "require": {
+        "philo/laravel-blade": "^3.1"
     }
 }
