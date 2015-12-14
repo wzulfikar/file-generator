@@ -18,3 +18,10 @@ Generate file from template, based on laravel blade template [http://laravel.com
 - Put rendered template file to output dir
 
 	`$fileGenerator->put('/user/desktop/GeneratedFromTemplate.php')`
+	
+## Testing
+
+- use `phpunit` in curent directory to execute test. 
+
+The test will use `views/Model.blade.php` as template, inject `$vars`, store generated file as `GeneratedFromTemplate.php` and delete that generated file upon test completion.
+
